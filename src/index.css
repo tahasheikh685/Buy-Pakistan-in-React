@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.subcategories li:hover{
+    color: rgb(48, 220, 48);
+    background-color: #04300a;
+}
+
+.categories li{
+    padding: 0 15px;
+    font-size: 19px;
+}
+
+.subcategories{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.subcategories li{
+    font-size: 14px;
+}

@@ -1,14 +1,15 @@
 import React from 'react';
-import Header from './Components/header';
-// import MainBody from './Components/mainBody';
+import Header from './components/header';
+import MainBody from './components/mainBody';
 
 function App() {
+  
   
 
   return (
     <div className="App">
       <Header />
-      {/* <MainBody /> */}
+      <MainBody />
     </div>
   );
 }
